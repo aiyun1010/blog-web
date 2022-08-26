@@ -1,0 +1,74 @@
+.gold-color {
+  color: gold;
+}
+.gainsboro-color {
+  color: gainsboro;
+}
+.rosybrown-color {
+  color: rosybrown;
+}
+.page-right {
+  position: sticky;
+  top: 460px;
+  width: 100%;
+  color: #757575;
+  margin-top: 20px;
+  .page-right-title {
+    // background-color: #edf2fe;
+    // color: #666;
+    // border-radius: 4px;
+    // padding: 6px 10px;
+    // font-weight: 900;
+    color: #666;
+    border-radius: 4px;
+    padding: 6px 20px;
+    font-weight: 900;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: 0;
+      width: 4px;
+      height: calc(100% - 12px);
+      background: #3853c1;
+    }
+  }
+  .page-right-items {
+    padding-bottom: 20px;
+    li {
+      list-style: none;
+      overflow: hidden;
+      padding: 6px 10px;
+      margin-top: 10px;
+      border-bottom: 1px dashed #eee;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 14px;
+      position: relative;
+      div {
+        padding-left: 26px;
+      }
+      i {
+        position: absolute;
+        left: 6px;
+        top: 3px;
+        font-size: 24px;
+        margin-right: 10px;
+      }
+      p {
+        padding: 5px 0 0 0;
+        font-size: 12px;
+        color: #bbb;
+      }
+    }
+  }
+  .page-hotarticles-item {
+    img {
+      width: 100%;
+      height: 100%;
+      object-position: 50% 50%;
+      object-fit: cover;
+    }
+  }
+}

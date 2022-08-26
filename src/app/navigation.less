@@ -1,0 +1,128 @@
+.app-nav {
+  height: 400px;
+  width: 100%;
+  z-index: 999;
+  background-image: url(../assets/main-bg-1.jpg);
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  position: relative;
+  transition: width 0.5s, height 0.5s, background-image 1s;
+}
+
+.navigation-bg-1 {
+  background-image: url(../assets/main-bg-1.jpg) !important;
+}
+.navigation-bg-2 {
+  background-image: url(../assets/main-bg-2.jpg) !important;
+}
+.navigation-bg-3 {
+  background-image: url(../assets/main-bg-3.jpg) !important;
+}
+.navigation-bg-4 {
+  background-image: url(../assets/main-bg-4.jpg) !important;
+}
+.navigation-bg-5 {
+  background-image: url(../assets/main-bg-5.jpg) !important;
+}
+.navigation-bg-6 {
+  background-image: url(../assets/main-bg-6.jpg) !important;
+}
+.layout-toggle {
+  position: absolute;
+  color: #fff;
+  right: 20px;
+  top: 0px;
+}
+/* .navigation-bg-3 {background: url(../assets/main-bg-3.jpg)} */
+.navigation-main {
+  display: flex;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  line-height: 3rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  // transition: 2s all linear;
+  & > div {
+    transition: 0.5s all;
+  }
+}
+.navigation-search {
+  right: -40px;
+  padding-top: 20px;
+  margin: 0 20px;
+  max-width: 600px;
+  width: 90%;
+  & input {
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+  }
+}
+
+.app-nav-full {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+.navigation-avatar {
+  top: -100px;
+  left: 200px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #aaa;
+  background: url(../assets/avatar.jpg) #414141;
+  background-size: 100% 100%;
+}
+.navigation-title {
+  font-size: 24px;
+}
+.navigation-title-en {
+  font-size: 14px;
+  // left: 0;
+}
+
+.navigation-search-btn {
+  cursor: pointer;
+}
+.navigation-search-btn:hover {
+  font-size: 24px;
+  color: #409eff;
+}
+.navigation-menu {
+  display: flex;
+  left: 0;
+  padding-top: 20px;
+}
+.navigation-menu > a {
+  margin: 0 10px;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #fff;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  // transition: 0.5s all;
+  span {
+    display: none;
+    font-size: 12px;
+  }
+  &:hover {
+    // width: 70px;
+    // border-radius: 50px;
+    // transform: scale(1.2) ;
+    // span {
+    //   display: inline-block;
+    //   white-space: nowrap;
+    // }
+    // i {
+    //   display: none;
+    // }
+  }
+}
