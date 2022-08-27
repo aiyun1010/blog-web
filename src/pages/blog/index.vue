@@ -13,7 +13,7 @@
           <i class="ay-icon-dianzan"></i>
         </a>
         <div>
-          <span>{{ supported ? "您已赞" : "给个赞再走呗" }}</span>
+          <span>{{ supported ? "您已赞" : "给个赞再走呗!!" }}</span>
           &nbsp;丨&nbsp;共 {{ currentBlog.support || 0 }} 个赞
         </div>
       </div>
